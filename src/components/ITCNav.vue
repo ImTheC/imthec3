@@ -11,7 +11,7 @@ export default {
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item">
-          <img src="@/assets/images/imthec_logo.png" class="mr-1" />
+          <img src="@/assets/images/imthec_logo.png" />
           <h1 class="nav-title is-size-7-touch roboto-font">Christopher Anderson</h1>
         </a>
 
@@ -43,5 +43,6 @@ export default {
 <style scoped>
 .navbar-item img {
     max-height: 2.75rem;
+    margin-right: 0.5rem;
 }
 </style>

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const year = new Date().getFullYear();
+</script>
+
 <template>
   <section class="hero is-black">
     <div class="hero-foot container">
@@ -6,7 +10,7 @@
         <div class="level-left">
           <div class="level-item">
             <p class="has-text-white is-marginless has-text-centered-touch">
-              &copy; Copyright 2018 - Christopher "ImTheC" Anderson
+              &copy; Copyright {{year}} - Christopher "ImTheC" Anderson
             </p>
           </div>
         </div>
